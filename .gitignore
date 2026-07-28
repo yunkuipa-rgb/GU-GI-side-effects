@@ -1,0 +1,19 @@
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Research data and generated arrays
+data/
+project/data/
+*.npz
+*.xlsx
+
+# Generated experiment outputs
+experiments/**/results*/
+experiments/**/*.log
+
+# Generated figures and local command notes
+*.png
+*.jpeg
+tcmd.txt
